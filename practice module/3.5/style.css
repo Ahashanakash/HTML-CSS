@@ -1,0 +1,104 @@
+#navbarNavAltMarkup ul li a {
+    margin-right: 50px;
+}
+
+.hoc11 {
+    background: rgba(0, 0, 0, 0.5)url("hoc1.png");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+}
+
+.hoc2 {
+    background: rgba(0, 0, 0, 0.5)url("hoc2.png");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+}
+
+.hoc3 {
+    background: rgba(0, 0, 0, 0.5)url("hoc3.png");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+}
+
+.progress-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.progress-inner {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    position: absolute;
+}
+
+@media (max-width: 576px) {
+    .progress-circle {
+        width: 70px;
+        height: 70px;
+    }
+
+    .progress-inner {
+        width: 50px;
+        height: 50px;
+        font-size: 0.8rem;
+    }
+}
+
+#r {
+    background: conic-gradient(#FF4240 87%, #e9ecef 85%);
+
+}
+
+#g {
+    background: conic-gradient(#49D293 95%, #e9ecef 95%);
+}
+
+#y {
+    background: conic-gradient(#FFB546 90%, #e9ecef 90%);
+}
+
+#b {
+    background: conic-gradient(#4C8DF1 80%, #e9ecef 0%);
+}
+
+#box {
+    border-top: 2px dashed lightgray;
+    border-bottom: 2px dashed lightgray;
+}
+
+.phone {
+    background-color: #BCED6D;
+}
+
+.mail {
+    background-color: #FDDD5F;
+}
+
+.map {
+    background-color: #629CF3;
+}
+
+button,
+.btn {
+    background-color: #FF4240;
+}
+
+input:focus {
+    outline: none;
+}

@@ -1,0 +1,377 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.logo {
+    position: relative;
+    margin-left: -50px;
+    margin-top: 12px;
+}
+
+.log {
+    width: 70%;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    height: 710px;
+    background-image: url('image/bg.png');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div1 {
+
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+    gap: 380px;
+}
+
+.div2 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    gap: 360px;
+}
+
+.slogan {
+    position: relative;
+
+    color: white;
+    align-items: end;
+    align-items: center;
+}
+
+.buton {
+    margin-left: 130px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-family: "Roboto", serif;
+
+    font-style: normal;
+    background-color: #fb9d5c;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+}
+
+.h {
+    position: relative;
+    margin-top: 200px;
+
+    font-size: 23px;
+    color: #fb9d5c;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hh {
+    margin-top: 10px;
+    position: relative;
+
+    font-size: 49px;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+.model {
+
+    margin-top: -63px;
+}
+
+.hero {
+    width: 400px;
+    height: 613px;
+}
+
+
+
+.about {
+    list-style: none;
+    display: flex;
+    gap: 75px;
+    font-size: 21px;
+    margin-top: -10px;
+    margin-left: 180px;
+    color: #fb9d5c;
+}
+
+li {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+.slogo {
+    align-content: center;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(249, 248, 248);
+    gap: 90px;
+    padding: 20px;
+}
+
+.os {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.ourservices{
+    margin-left: -20px;
+    font-weight: 450;
+}
+
+.chik{
+    margin-top: 20px;
+    margin-left: -30px;
+}
+.sixbox1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+
+}
+.sixbox2{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.box1{
+    width: 350px;
+    height: 275px;
+    border: 1px solid rgb(163, 161, 161);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+h3{
+    margin-top: 22px;
+    font-family: "Roboto", serif;
+    font-weight: 450;
+    font-style: normal;
+}
+.chikdiv{
+    margin-top: 13px;
+}
+.pdivsixbox{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.logosixbox{
+    margin-top: 10px;
+}
+.lp{
+    margin-top: 80px;
+    margin-left: 8px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+.lp1{
+    width: 500px;
+    height: 615px;
+}
+.lp2{
+    height: 610px;
+    width: 615px;
+}
+.hireus{ 
+    background-color: rgb(74, 200, 250);
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.lastp{
+    margin-top: 13px;
+    font-size: 17px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ww{
+    font-size: 45px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.caller{
+    display: flex;
+}
+.get{
+    margin-left: 15px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.get2{
+        margin-top: 8px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+.home-text{
+    color: #fb9d5c;
+}
+footer{
+    height: 280px;
+}
+
+.ft1{
+    color: lightgray;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+    line-height: 1.5;
+    font-family: "Roboto", serif;
+    font-weight: 390;
+    font-style: normal;
+    
+}
+.ft{
+    color: lightgray;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 1.5;
+    font-family: "Roboto", serif;
+    font-weight: 390;
+    font-style: normal;
+    list-style-type: circle;
+    
+}
+.fm{
+    margin-top: 210px;
+    height: 280px;
+    padding: 50px;
+    
+    border: 1px solid black;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.sm{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.smdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.lm{
+    height: 300px;
+    margin-top: 22px;
+}
+.lmh{
+    color: rgb(164, 164, 164);
+    font-size: 25px;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.lm4{
+    margin-top: 18px;
+}
+.lig{
+    width: 13%;
+}
+.smh{
+    color: #fb9d5c;
+    font-size: 20px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.gj{
+    margin-top: 20px;
+    color: #fb9d5c;
+    font-size: 20px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.input{
+    background-color: gray;
+    margin-top: 10px;
+    width: 180px;
+    height: 35px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    padding-left: 10px;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.li{
+    font-size: 17px;
+    color: rgb(167, 167, 167);
+}
+ul{
+    list-style-position: outside;
+    list-style-type: circle;
+    
+}
+.lc{
+    margin-top: 10px;
+}
+
+@media (min-width: 0px) and (max-width: 547px) {
+    .div2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+  }

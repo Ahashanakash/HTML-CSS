@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <!--link here google fonts by preference-->
+</head>
+
+<body>
+
+    <header class="container-fluid py-1">
+        <div class="container">
+            <div class="row">
+                <div class=" py-3">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary align-items-sm-left">
+                        <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <h3 class="fs-lg-2 fs-sm-1"><b>Hockey</b><span class="text-danger"><b>'</b></span><b>s</b>
+                            </h3>
+                        </a>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link me-4 text-danger" href="">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link me-4 text-black" href="">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link me-4 text-black" href="">Pages</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link me-4 text-black" href="">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link me-4 text-black" href="">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="gap-4">
+                            <i class="fa-solid fa-magnifying-glass me-1 cursor-pointer d-none d-sm-inline"></i>
+                            <button type="button" class="btn btn-danger cursor-pointer"> Get Ticket</button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active position-relative">
+                        <img src="cup.png" class="img-fluid w-100" alt="...">
+                        <div
+                            class="col-lg-6 d-none d-lg-block position-absolute bottom-0 end-0 bg-dark text-white px-4 py-4 rounded-4 me-5 mb-5">
+                            <h5 class="fs-5 text-white">Meet all the heroes from the field</h5>
+                            <p class=" mb-0 text-light">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                                turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item position-relative">
+                        <img src="hockey.jpg" class="img-fluid rounded-4" alt="...">
+                        <div
+                            class="col-lg-6 d-none d-lg-block position-absolute bottom-0 end-0 bg-dark text-white px-4 py-4 rounded-4 me-5 mb-5">
+                            <h5>Meet all the heroes from the field</h5>
+                            <p class=" mb-0">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                                placerat dolor. Purus urna in sit nullam proin.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="col-12 d-lg-none bg-dark text-white py-4 px-3 rounded-4 mt-3 ">
+            <h5>Meet all the heroes from the field</h5>
+            <p class=" mb-0">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                urna in sit nullam proin.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="w-100 mt-5 py-4 text-center" id="box">
+            <div class="col-12 col-sm-6 m-auto">
+                <h1 class="fs-3 fs-sm-3"><b>Professional Hockeys Club</b></h1>
+                <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.
+                    Purus urna in sit nullam proin.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- <section> -->
+    <div class="container mt-5">
+        <div class="row justify-content-center g-4">
+            <div class="col-12 col-md-3 d-flex justify-content-center">
+                <div class="d-flex flex-column align-items-center text-center">
+                    <div class="progress-circle" id="r">
+                        <div class="progress-inner">87%</div>
+                    </div>
+                    <h5 class="mt-2">Player Facility</h5>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 d-flex justify-content-center">
+                <div class="d-flex flex-column align-items-center text-center">
+                    <div class="progress-circle" id="g">
+                        <div class="progress-inner">95%</div>
+                    </div>
+                    <h5 class="mt-2">Experienced Coach</h5>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 d-flex justify-content-center">
+                <div class="d-flex flex-column align-items-center text-center">
+                    <div class="progress-circle" id="y">
+                        <div class="progress-inner">90%</div>
+                    </div>
+                    <h5 class="mt-2">Senior Player</h5>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 d-flex justify-content-center">
+                <div class="d-flex flex-column align-items-center text-center">
+                    <div class="progress-circle" id="b">
+                        <div class="progress-inner">80%</div>
+                    </div>
+                    <h5 class="mt-2">Training Ground</h5>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="w-100 mt-5 py-4 text-center" id="box">
+            <div class="col-12 col-sm-6 m-auto">
+                <h1 class="fs-3 fs-sm-3"><b>Program Sections</b></h1>
+                <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.
+                    Purus urna in sit nullam proin.</p>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container mt-5">
+            <div class="d-sm-flex gap-3 ">
+                <div class="hoc11 px-4 py-2 px-lg-5 py-lg-5 rounded-4 text-white w-100">
+                    <h3 class="fs-3 mt-5">Junior Program</h3>
+                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                        sed et
+                        in.</p>
+                    <button type="button" class="btn btn-danger cursor-pointer">Register Now!</button>
+                </div>
+                <div class="hoc2 px-4 py-2 px-lg-5 py-lg-5 mt-3 mt-md-0 rounded-4 text-white w-100 mt-sm-5 mt-md-0">
+                    <h3 class="fs-3 mt-5">Teenager Program</h3>
+                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                        sed et
+                        in.</p>
+                    <button type="button" class="btn btn-danger cursor-pointer">Register Now!</button>
+                </div>
+            </div>
+
+            <div class="hoc3 col-12 px-4 py-2 px-lg-5 py-lg-5 mt-3 rounded-4 text-white">
+                <div class=" w-lg-50 w-100 py-5">
+                    <h3 class="fs-3 mt-5">Professional Program</h3>
+                    <p class="col-12 col-sm-6 text-wrap">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                        elit
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                        congue sed et
+                        in.</p>
+                    <button type="button" class="btn btn-danger cursor-pointer">Register Now!</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="container">
+        <div class="w-100 mt-5 py-4 text-center" id="box">
+            <div class="col-12 col-sm-6 m-auto">
+                <h1 class="fs-3 fs-sm-3"><b>Our New Products</b></h1>
+                <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.
+                    Purus urna in sit nullam proin.</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="container">
+            <div class="container p-0 d-sm-flex d-block rounded-4 w-100 gap-3 mt-5  ">
+                <div class=" p-3 border border-black rounded-4">
+                    <div class="d-lg-flex py-3 gap-3">
+                        <div class="py-sm-5 py-md-0">
+                            <img src="jacket.png" class="img-fluid w-100 d-none d-lg-inline" alt="">
+                            <img src="jacketsmall.png" class="img-fluid w-100 d-lg-none" alt="">
+                        </div>
+                        <div class="mt-4 mt-lg-0">
+                            <div class="d-flex gap-4">
+                                <div class="d-flex gap-4">
+                                    <p><i class="fa-solid fa-star text-warning font-weight-light"></i> 5.0</p>
+                                    <p><i class="fa-regular fa-eye font-weight-light"></i> 20</p>
+                                    <p><i class="fa-regular fa-heart"></i> 200</p>
+                                </div>
+                            </div>
+                            <h5 class="fs-5"><b>Jacket For Hockeys</b> </h3>
+                                <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                <div class="d-lg-flex gap-5">
+                                    <h5 class="fs-5 text-danger"><b>Price-$22.00</b></h5>
+                                    <p><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3 mt-3 mt-sm-0 border border-black rounded-4">
+                    <div class="d-lg-flex py-3 gap-3 ">
+                        <div class="">
+                            <img src="ball.png" class="img-fluid w-100 d-none d-lg-inline" alt="">
+                            <img src="ballsmall.png" class="img-fluid w-100 d-lg-none" alt="">
+                        </div>
+                        <div class="mt-4 mt-lg-0">
+                            <div class="d-flex gap-4">
+                                <div class="d-flex gap-4">
+                                    <p><i class="fa-solid fa-star text-warning font-weight-light"></i> 5.0</p>
+                                    <p><i class="fa-regular fa-eye font-weight-light"></i> 20</p>
+                                    <p><i class="fa-regular fa-heart"></i> 200</p>
+                                </div>
+                            </div>
+                            <h5 class="fs-5"><b>Ball For Hockeys</b> </h3>
+                                <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                <div class="d-flex gap-5">
+                                    <div class="d-lg-flex gap-5">
+                                        <h5 class="fs-5 text-danger"><b>Price-$22.00</b></h5>
+                                        <p><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-0 d-sm-flex d-block rounded-4 w-100 gap-3 mt-3">
+                <div class="p-3  border border-black rounded-4">
+                    <div class="d-lg-flex py-3 gap-3">
+                        <div class="">
+                            <img src="cap.png" class="img-fluid w-100 d-none d-lg-inline" alt="">
+                            <img src="capsmall.png" class="img-fluid w-100 d-lg-none" alt="">
+                        </div>
+                        <div class="mt-4 mt-lg-0">
+                            <div class="d-flex gap-4">
+                                <div class="d-flex gap-4">
+                                    <p><i class="fa-solid fa-star text-warning font-weight-light"></i> 5.0</p>
+                                    <p><i class="fa-regular fa-eye font-weight-light"></i> 20</p>
+                                    <p><i class="fa-regular fa-heart"></i> 200</p>
+                                </div>
+                            </div>
+                            <h5 class="fs-5"><b>Cap For Hockeys</b> </h3>
+                                <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                <div class="d-flex gap-5">
+                                    <div class="d-lg-flex gap-5">
+                                        <h5 class="fs-5 text-danger"><b>Price-$22.00</b></h5>
+                                        <p><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3 mt-3 mt-sm-0 border border-black rounded-4">
+                    <div class="d-lg-flex py-3 gap-3">
+                        <div class="">
+                            <img src="jersey.png" class="img-fluid w-100 d-none d-lg-inline" alt="">
+                            <img src="jerseysmall.png" class="img-fluid w-100 d-lg-none" alt="">
+                        </div>
+                        <div class="mt-4 mt-lg-0">
+                            <div class="d-flex gap-4">
+                                <div class="d-flex gap-4">
+                                    <p><i class="fa-solid fa-star text-warning font-weight-light"></i> 5.0</p>
+                                    <p><i class="fa-regular fa-eye font-weight-light"></i> 20</p>
+                                    <p><i class="fa-regular fa-heart"></i> 200</p>
+                                </div>
+                            </div>
+                            <h5 class="fs-5"><b>Jersey For Hockeys</b> </h3>
+                                <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                <div class="d-flex gap-5">
+                                    <div class="d-lg-flex gap-5">
+                                        <h5 class="fs-5 text-danger"><b>Price-$22.00</b></h5>
+                                        <p><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-0 d-sm-flex d-block rounded-4 w-100 gap-3 mt-3">
+                <div class="p-3  border border-black rounded-4">
+                    <div class="d-lg-flex py-3 gap-3">
+                        <div class="">
+                            <img src="helmet.png" class="img-fluid w-100 d-none d-lg-inline" alt="">
+                            <img src="helmetsmall.png" class="img-fluid w-100 d-lg-none" alt="">
+                        </div>
+                        <div class="mt-4 mt-lg-0">
+                            <div class="d-flex gap-4">
+                                <div class="d-flex gap-4">
+                                    <p><i class="fa-solid fa-star text-warning font-weight-light"></i> 5.0</p>
+                                    <p><i class="fa-regular fa-eye font-weight-light"></i> 20</p>
+                                    <p><i class="fa-regular fa-heart"></i> 200</p>
+                                </div>
+                            </div>
+                            <h5 class="fs-5"><b>Helmet For Hockeys</b> </h3>
+                                <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                <div class="d-flex gap-5">
+                                    <div class="d-lg-flex gap-5">
+                                        <h5 class="fs-5 text-danger"><b>Price-$22.00</b></h5>
+                                        <p><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3 mt-3 mt-sm-0 border border-black rounded-4">
+                    <div class="d-lg-flex py-3 gap-3">
+                        <div class="">
+                            <img src="soccerball.png" class="img-fluid w-100 d-none d-lg-inline" alt="">
+                            <img src="soccerballsmall 4.png" class="img-fluid w-100 d-lg-none" alt="">
+                        </div>
+                        <div class="mt-4 mt-lg-0">
+                            <div class="d-flex gap-4">
+                                <p><i class="fa-solid fa-star text-warning font-weight-light"></i> 5.0</p>
+                                <p><i class="fa-regular fa-eye font-weight-light"></i> 20</p>
+                                <p><i class="fa-regular fa-heart"></i> 200</p>
+                            </div>
+                            <h5 class="fs-5 "><b>Banner For Hockeys</b> </h5>
+                            <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                            <div class="d-flex gap-5">
+                                <div class="d-lg-flex gap-5">
+                                    <h5 class="fs-5 text-danger"><b>Price-$22.00</b></h5>
+                                    <p><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <div class="container">
+        <div class="w-100 mt-5 py-4 text-center" id="box">
+            <div class="col-12 col-sm-6 m-auto">
+                <h1 class="fs-3 fs-sm-3"><b>Clients Question</b></h1>
+                <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.
+                    Purus urna in sit nullam proin.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container d-lg-flex gap-3 px-3 py-3 border border-black rounded-4 mt-5">
+            <div class="col-lg-5">
+                <img src="question.png" class="img-fluid w-100 d-none d-lg-inline" alt="">
+                <img src="questionsmall.png" class="img-fluid w-100 d-lg-none" alt="">
+            </div>
+            <div class="container col-lg-7 mt-lg-0 mt-4">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <h4 class="fs-5">Our Equipment</h4>
+                            </button>
+                        </h4>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis
+                                turpis
+                                in magna.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h4 class="fs-5">Hockey Training</h4>
+                            </button>
+                        </h4>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis
+                                turpis
+                                in magna.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <h4 class="fs-5">Private Lessons</h4>
+                            </button>
+                        </h4>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis
+                                turpis
+                                in magna.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <h4 class="fs-5">Ski Touring</h4>
+                            </button>
+                        </h4>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis
+                                turpis
+                                in magna.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <h4 class="fs-5">Booking</h4>
+                            </button>
+                        </h4>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis
+                                turpis
+                                in magna.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                <h4 class="fs-5">Pricings</h4>
+                            </button>
+                        </h4>
+                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis
+                                turpis
+                                in magna.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="w-100 mt-5 py-4 text-center" id="box">
+            <div class="col-12 col-sm-6 m-auto">
+                <h1 class="fs-3 fs-sm-3"><b>Get In Touch</b></h1>
+                <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.
+                    Purus urna in sit nullam proin.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <section>
+        <div class="container mt-5">
+            <div class="row container">
+                <div class="col-lg-5 col-12 border border-black p-5 rounded-4">
+                    <div class="phone p-4 rounded-4">
+                        <div>
+                            <img src="call.png" class="img-fluid" alt="">
+                            <p class="mt-4 mb-1 fs-6">Phone Number:</p>
+                            <p><b>(+62) 123-321-543</b></p>
+                        </div>
+                    </div>
+                    <div class="mail p-4 rounded-4 mt-3">
+                        <div>
+                            <img src="message.png" class="img-fluid" alt="">
+                            <p class="">Email:</p>
+                            <p><b>hockeys@support.com</b></p>
+                        </div>
+                    </div>
+                    <div class="map p-4 rounded-4 mt-3">
+                        <div>
+                            <img src="map.png" class="img-fluid" alt="">
+                            <p class="">Location:</p>
+                            <p><b>152/1 Mohakhali Wireless Gate</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-12 px-4">
+                    <form action="">
+                        <div class="row mt-4 mt-lg-0">
+                            <div class="col-sm-6 col-12">
+                                <label for="name" class="fs-5"><b>Your Name</b></label>
+                                <input type="text" class="mt-2 bg-light border border-none rounded-2 px-3 py-3 w-100"
+                                    placeholder="Enter your full name">
+                                <label for="subject" class="fs-5 mt-3"><b>Subject</b></label>
+                                <input type="text" class="mt-2 bg-light border border-none rounded-2 px-3 py-3 w-100"
+                                    placeholder="Enter your subject">
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <label for="email" class="fs-5"><b>Your Email</b></label>
+                                <input type="text" class="mt-2 bg-light border border-none rounded-2 px-3 py-3 w-100"
+                                    placeholder="Enter your email">
+                                <label for="subject" class="fs-5 mt-3"><b>Phone Number</b></label>
+                                <input type="text" class="mt-2 bg-light border border-none rounded-2 px-3 py-3 w-100"
+                                    placeholder="Enter your phone number"><br>
+                            </div>
+                            <div class="w-100">
+                                <label for="message" class="fs-5 mt-3"><b>Message</b></label>
+                                <textarea class="form-control mt-2 bg-light border border-none rounded-2 px-3 py-3"
+                                    placeholder="Write your message" id="floatingTextarea2"
+                                    style="height: 330px"></textarea>
+                            </div>
+                            <div class="container"><button
+                                    class="w-100 mt-4 fs-5 text-white border border-none p-2 rounded-3"><b>Send
+                                        Message</b></button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="container text-center mt-5 bg-light py-5 rounded-4">
+            <h4><b>Social Media</b></h4>
+            <div class="d-flex justify-content-center gap-4 mt-4">
+                <a class="text-dark" href=""><i class="fa-brands fa-twitter fs-4 "></i></a>
+                <a class="text-dark" href=""><i class="fa-brands fa-facebook-f fs-4"></i></a>
+                <a class="text-dark" href=""><i class="fa-brands fa-instagram fs-4"></i></a>
+                <a class="text-dark" href=""><i class="fa-brands fa-github fs-4"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black mt-5 ">
+        <div class="container">
+            <div class="row container">
+                <div class=" d-sm-flex justify-content-between py-5 px-0 text-center text-sm-start">
+                    <div class=" col-12 col-sm-2">
+                        <h4 class="text-white"><b>Get In Touch</b></h4>
+                        <p class="text-secondary">Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat
+                            dolor. Purus urna in sit nullam proin. </p>
+                        <p class="text-light"><i class="fa-regular fa-envelope text-danger"></i> hockeys@support.com
+                        </p>
+                        <p class="text-light"><i class="fa-solid fa-phone text-danger"></i> (+62) 123-321-543</p>
+                    </div>
+                    <div class="col-12 col-sm-2 text-center text-sm-start mt-4 mt-sm-0">
+                        <h5 class="fs-5 text-white"><b>Company</b></h5>
+                        <ul class="list-unstyled text-secondary mt-4">
+                            <li>About us</li>
+                            <li>Leadership</li>
+                            <li>Careers</li>
+                            <li>News & Article</li>
+                            <li>Legal Notice</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-1 text-center text-sm-start mt-4 mt-sm-0">
+                        <h5 class="text-white">Support</h5>
+                        <ul class="list-unstyled text-secondary mt-4">
+                            <li>Help Center</li>
+                            <li>FAQ</li>
+                            <li>Ticket Support</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-2 text-center text-sm-start mt-4 mt-sm-0">
+                        <h5 class="text-white">Services</h5>
+                        <ul class="list-unstyled text-secondary mt-4">
+                            <li>Academy</li>
+                            <li>Group Lesson</li>
+                            <li>Private Lesson</li>
+                            <li>Hockeys for kids</li>
+                            <li>Hockeys for Adult</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
